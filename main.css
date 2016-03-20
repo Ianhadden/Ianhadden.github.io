@@ -2,6 +2,7 @@ body {
 	margin-top: 90px;
 	background-image: url("http://i.imgur.com/OwSnoY5.jpg");
 	background-size: 1800px;
+	background-repeat: no-repeat;
 	/* font-family: "Verdana", Sans-serif; */
 	text-align: center;
 }
