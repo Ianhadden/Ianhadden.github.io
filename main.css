@@ -1,5 +1,7 @@
 body{
+	margin-top: 100px;
 	background-image: url("http://i.imgur.com/OwSnoY5.jpg");
+	background-size: 1800px;
 	font-family: "Verdana", Sans-serif;
 	text-align: center;
 }
