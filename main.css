@@ -1,7 +1,60 @@
-body{
-	margin-top: 100px;
+body {
+	margin-top: 90px;
 	background-image: url("http://i.imgur.com/OwSnoY5.jpg");
 	background-size: 1800px;
-	font-family: "Verdana", Sans-serif;
+	/* font-family: "Verdana", Sans-serif; */
 	text-align: center;
+}
+
+h1 {
+	font-family: 'Londrina Shadow', cursive;
+	font-size: 300%;
+	margin-bottom:0em
+}
+
+p, a{
+	font-family: 'Montserrat', sans-serif;
+	line-height:30px;
+}
+
+#fade a,
+#fade h1,
+#fade p {
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -o-animation: fadein 2.5s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
