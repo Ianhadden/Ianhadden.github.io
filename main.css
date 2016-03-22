@@ -19,6 +19,11 @@ p, a{
 	line-height:30px;
 }
 
+#nav a{
+	padding-right: 11px;
+	padding-left: 11px;
+}
+
 #fade a,
 #fade h1,
 #fade p {
