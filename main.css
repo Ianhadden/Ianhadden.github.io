@@ -1,7 +1,10 @@
 body {
 	margin-top: 100px;
 	background-image: url("http://i.imgur.com/OwSnoY5.jpg");
-	background-size: 2000px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #121a1d;
 	/* font-family: "Verdana", Sans-serif; */
